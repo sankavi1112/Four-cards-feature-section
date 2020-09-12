@@ -1,0 +1,31 @@
+.cardspara{
+    font-size: 15px;
+}
+.para{
+    font-size:15px;
+}
+
+.card1{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+.card2{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.card3{
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+.card4{
+    border-top: 3px solid hsl(212, 86%, 64%)
+    ;
+}
+.card:hover{
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.486);
+}
+@media only screen and (max-width: 400px) {
+    .card{
+        margin-top: 20px;
+    }
+    .heading{
+        font-size:30px;
+    }
+}
